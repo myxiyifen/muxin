@@ -21,5 +21,13 @@ public interface UserService {
 
     public Users saveUser(Users user) throws Exception;
 
+    /***
+     * 修改用户记录
+     * @param user
+     * @return
+     */
+    public Users updateUserInfo(Users user);
+
+
 
 }
